@@ -21,3 +21,4 @@ class User3 {
 }
 //Creating object from the class
 const mars3 = new User3("mars@g.com", "Charles", "2020");
+//Hint: Public and Private are access modifiers.
