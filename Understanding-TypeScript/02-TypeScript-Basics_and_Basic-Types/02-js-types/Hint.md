@@ -1,0 +1,8 @@
+KEY DIFFERENCE: JavaScript uses "Dynamic types" (resolved at runtime) while TypeScript uses "static types" (set during development)
+
+Important: Type Casing
+In TypeScript, you work with types like string or number all the times.
+
+Important: It is string and number (etc.), NOT String, Number etc.
+
+The core primitive types in TypeScript are all lowercase!
