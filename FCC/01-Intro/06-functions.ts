@@ -22,23 +22,30 @@ loginUser("mars", "mars@gmail.com");
 //EXplicitly declaring the type in an arrow function
 
 const getHello = (s: string): string => {
-  return "";
+  const hello = s;
+  return hello;
 };
 
-const heros = ["thor", "spiderman", "ironman"];
+const hello = getHello("Hello Mars");
+console.log("====================================");
+console.log(hello);
+console.log("====================================");
 
+// String mappings
+const heros = ["thor", "spiderman", "ironman"];
 heros.map((hero): string => {
-  return `hero is ${hero}`;
+  let theHeros = `hero is ${hero}`;
+  console.log(theHeros);
+  return theHeros;
 });
 
+// number mappings
 const accounts = [100, 300, 500, 60, 30];
-
 accounts.map((account): number => {
   return account;
 });
 
 //when the function is not returning anything, then use Void
-
 function consoleError(errmsg: string): void {
   console.log(errmsg);
 }
