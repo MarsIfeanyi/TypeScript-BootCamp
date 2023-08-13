@@ -7,7 +7,6 @@ type User = {
 };
 
 // using the type...
-
 function createUser(user: User): User {
   return { name: "", email: "", isActive: true };
 }
