@@ -23,6 +23,7 @@ userId2.toFixed();
 
 // Boolean
 let isLoggedIn: boolean = false;
+isLoggedIn;
 
 // Hint: You can use the dot notation to see the method available on each of the data types...The method varies
 
