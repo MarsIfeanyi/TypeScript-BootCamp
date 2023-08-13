@@ -8,6 +8,7 @@ const User = {
 
 function createUser({ name: string, isPaid: boolean }) {}
 
+// Calling/Invoking the function
 createUser({ name: "mars", isPaid: false });
 
 // When a function returns an object
@@ -26,6 +27,6 @@ function createUser3({ name: string, isPaid: boolean }) {
   let newUser = { name: "mars", isPaid: true, email: "mars@gmail.com" };
 }
 
-createUser3(newUser);
+// createUser3(newUser);
 
 export {};
