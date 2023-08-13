@@ -1,4 +1,4 @@
-//The union type is used when you are not sure of the type of data that will come in. thus instead of using "Any", you use "Union"...Union is highly recommended for situations like this, its a combination of two or more data types
+// VIP: The union type is used when you are not sure of the type of data that will come in. thus instead of using "Any", you use "Union"...Union is highly recommended for situations like this, its a combination of two or more data types
 
 import { type } from "os";
 
@@ -6,6 +6,8 @@ let score: number | string = 33;
 
 score = 45;
 score = "60";
+
+console.log(score);
 
 type User = {
   name: string;
