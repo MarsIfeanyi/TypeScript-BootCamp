@@ -23,7 +23,8 @@ type User = {
 
 const allUsers: User[] = [];
 
-allUsers.push({ name: "", isActive: true });
+allUsers.push({ name: "Mars Ifeanyi", isActive: true });
 console.log(allUsers);
 
 const MLmodels: number[][] = [[255, 255, 255], []];
+console.log(MLmodels);
