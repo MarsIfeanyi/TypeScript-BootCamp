@@ -1,6 +1,6 @@
 //Hint: Tuple helps to ensure that the order of the array really matters...
 
-//Without Tuple...Can be in any order
+//Without Tuple... Can be in any order
 const userz: (string | number)[] = [1, "mars"];
 
 const userz2: (string | number)[] = ["mars", 1];
