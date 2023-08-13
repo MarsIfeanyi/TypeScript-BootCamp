@@ -1,4 +1,4 @@
-//Re-using an interface declared in another file or library...Hint:This is one nof the advantages of interface.
+//Re-using an interface declared in another file or library...Hint:This is one of the advantages of interface.
 interface iUser4 {
   githubToken: string;
 }
