@@ -1,4 +1,4 @@
-//Discriminated Union
+// Discriminated Union
 
 interface Circle {
   kind: "circle";
