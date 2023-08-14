@@ -12,7 +12,7 @@ abstract class TakePhoto2 {
 
 //Hint: when you declare a class as abstract then no new object can be created from the parent class, However you can create an object from the child class
 
-//const notAllow = new TakePhoto("test", "Test");You cannot create an instance of an abstract class
+// const notAllow = new TakePhoto("test", "Test");// You cannot create an instance of an abstract class
 
 class Instagram2 extends TakePhoto2 {
   constructor(
