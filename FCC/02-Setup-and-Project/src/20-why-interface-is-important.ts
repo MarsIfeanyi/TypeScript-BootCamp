@@ -1,4 +1,4 @@
-//With interface you can define a general features and thus anyone that wants to use the interface must implement all the features you defined in the interface
+// With interface you can define a general features and thus anyone that wants to use the interface must implement all the features you defined in the interface
 
 interface TakePhoto {
   cameraMode: string;
