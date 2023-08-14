@@ -1,4 +1,4 @@
-//Hint: protected is accessible within the Parent class any in any other class that inherited from the parent class... However it is not accessible outside the parent or outside the child class
+//Hint: protected is accessible within the Parent class and in any other class that inherited from the parent class... However it is not accessible outside the parent or outside the child class... VIP: protected is similar to "internal" modifier in Solidity.
 
 class User5 {
   protected _courseCount = 1;
@@ -31,7 +31,7 @@ class User5 {
       throw new Error("Course count should be more than 1 ");
     }
     this._courseCount = courseNum;
-  } //Hint: The logic here is upto but the most important thing is that in setter function there is no "return type"
+  } //Hint: The logic here is upto you but the most important thing is that in setter function there is no "return type"
 }
 
 //Class Inheritance
