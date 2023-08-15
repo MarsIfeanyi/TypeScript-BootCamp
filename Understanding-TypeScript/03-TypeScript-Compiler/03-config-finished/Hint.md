@@ -13,7 +13,7 @@ Hint: Lib[] allows you to specify which default object and features TypeScript k
 "scripthost"
 ],
 
-Hint: "sourceMap": true. Helps us with debugging and development... sourceMap() is very useful in large project because it simplifies debugging and also you to see both your .js and .ts file in the source file in your console.
+Hint: "sourceMap": true. Helps us with debugging and development... sourceMap() is very useful in large project because it simplifies debugging and also helps you to see both your .js and .ts file in the source file in your console.
 
 "outDir": "./dist", /_ Redirect output structure to the directory. _/
 
